@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jun 30 17:00:13 2017
-
-@author: lenovo
-"""
 
 import twitter
 import json
