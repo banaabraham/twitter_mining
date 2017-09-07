@@ -19,7 +19,6 @@ twitter_api = twitter.Twitter(auth=auth)
 
 print (twitter_api)
 
-
 def twitter_mining(q,count,geocode):
     search_results = twitter_api.search.tweets(q=q,count=count, geocode=geocode)
     statuses = search_results['statuses']
